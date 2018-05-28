@@ -1,0 +1,63 @@
+      Introduction
+The PHP Framework For Web Artisans
+
+      What Does Laravel Do!
+.Route Handling {Type Request && Edit Url}
+.Security Layer {Protection Form 'validations' and Database}
+.Models & DB Migrations {Easy To Create Database}
+.Views/Templates  {Extends Layout}
+.Authentication {Automatically Create Migrations to create table users with simple Artisan Command }
+.Session {Lravel Mix}
+.Compile Assets {Sass }
+.Storage & File Management
+.Error Handling
+.Unit Testing
+.Email & Config
+.Cache Handling
+
+   Laravel Includes the Artisan CLI which Handles many Tasks
+ .Create Controllers & Models
+ .Create Database Migrations Files and running Migrations
+ .Create providers, events, jobs, form request etc.
+ .Show routes
+ .Session Commands
+ .Run Tinker
+ .Create Custom Commands
+
+   Examples Of Artisan Commands
+  $php artisan List
+  $php artisan help migrate
+  $php artisan make:controller TodosController
+  $php artisan make:model Todo-m
+  $php artisan make:migration add_todos_to_db-table=todos
+  $php artisan migrate
+  $php artisan tinker
+
+    Laravel Includes The Eloquent Object Relational mapper
+  .Make Querying & Working with DB very Easy
+  .We can Still use raw SQK queries if needed
+Example
+Use App\Todo;
+$todo = new Todo;
+$todo->title = 'Some Todo';
+$todo->save();
+
+    Blade  Template Engine
+  .Simple & PowerFull
+  .Control Structures (if else, loops, etc)
+  .Can use <?php echo "php tags";?>
+  .Template Inheritance: Extend Layouts Easily
+  .Can Create custom Components
+
+      Installing Laravel
+Laravel  utilizes Composer to mange its dependencies. So, before using Laravel, make sure you have Composer installed on your machine.
+Via Laravel Installer
+First, download the Laravel installer using Composer: {composer global require "laravel/installer"}
+
+For Create new Project use :{laravel new blog}
+Via Composer Create-Project
+{composer create-project --prefer-dist laravel/laravel blog}
+
+Local Development Server
+ For Strat Lravel And display it in browser
+ use {php artisan Server}
