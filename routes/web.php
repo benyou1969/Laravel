@@ -55,3 +55,4 @@ Route::get('user/{id}/{name}',function($id,$name){
 // Global Constraints
 // Named Routes
 // Route::get('user/profile', 'UserController@showProfile')->name('profile');
+Route::resource('posts','PostsController');
