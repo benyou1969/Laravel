@@ -6,7 +6,7 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item   text-center">
-        <a class="nav-link" href="/">Home <span>
+        <a class="nav-link" href="/">Home </a>
       </li>
       <li class="nav-item  text-center">
         <a class="nav-link" href="/about">About</a>
@@ -16,12 +16,11 @@
       </li>
       <li class="nav-item dropdown text-center">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
+          More Link
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/posts">Posts</a>
+          <a class="dropdown-item" href="/posts/create">Create Post</a>
         </div>
       </li>
     </ul>
